@@ -4,7 +4,7 @@ import time
 import datetime
 
 while True:
-	humidity, temperature = Adafruit_DHT.read_retry(11,4)
+	humidity, temperature = Adafruit_DHT.read_retry(11,17)
 	print ('Temp: ' + str(temperature))
 	print ('Humid: ' + str(humidity))
 	x = datetime.datetime.now()
